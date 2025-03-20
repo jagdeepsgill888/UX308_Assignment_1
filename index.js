@@ -54,6 +54,8 @@ class Chat extends HTMLElement {
 .chat${suffix} .message-list {
   overflow-y: auto;
   max-height: 500px;
+  background-color: gray;
+
 }
 
 .chat${suffix} .message-item {
