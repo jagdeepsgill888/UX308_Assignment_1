@@ -50,7 +50,7 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
         right: 1em;
 }
     .fub_btn {
-        background-color: #04AA6D;
+        background-color:rgb(4, 137, 170);
         border: none;
         color: white;
         padding: 15px 32px;
