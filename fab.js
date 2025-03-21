@@ -48,9 +48,20 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
         position: absolute;
         top: -1em;
         right: 1em;
-    }
+    .fub_btn {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}}
     </style>
-    <button id="fab${suffix}">Order Now</button>
+    <button id="fab${suffix}" class=" fub_btn">Order Now</button>
     `);
 
 document.querySelector(`#fab${suffix}`).addEventListener("click", evt=>{
