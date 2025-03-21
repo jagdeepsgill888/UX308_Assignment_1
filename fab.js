@@ -62,7 +62,7 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
         cursor: pointer;
 }
     </style>
-    <button id="fab${suffix}" class=" fub_btn">Order Now</button>
+    <button id="fab${suffix}" class="fub_btn">Order Now</button>
     `);
 
 document.querySelector(`#fab${suffix}`).addEventListener("click", evt=>{
