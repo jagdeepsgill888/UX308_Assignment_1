@@ -46,7 +46,7 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
     }
     #clear${suffix}{
         position: fixed;
-        top: -1em;
+        top: 10em;
         right: 1em;
 }
     .fub_btn {
