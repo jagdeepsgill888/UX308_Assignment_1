@@ -57,6 +57,7 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
         text-align: center;
         text-decoration: none;
         display: inline-block;
+        border-radius: 25px;
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
