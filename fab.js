@@ -45,7 +45,7 @@ document.querySelector("body").insertAdjacentHTML("beforeend", `
         right: 1em;
     }
     #clear${suffix}{
-        position: absolute;
+        position: fixed;
         top: -1em;
         right: 1em;
 }
