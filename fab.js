@@ -40,13 +40,13 @@ const suffix = (Math.random()*100).toFixed().toString();
 document.querySelector("body").insertAdjacentHTML("beforeend", `
     <style>
     #fab${suffix}, #modal${suffix}{
-        position: absolute;
+        position: fixed;
         bottom: 1em;
         right: 1em;
     }
     #clear${suffix}{
-        position: fixed;
-        top: 10em;
+        position: absolute;
+        top: -1em;
         right: 1em;
 }
     .fub_btn {
